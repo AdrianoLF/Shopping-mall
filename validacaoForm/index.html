@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Exercício</title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+
+            <!-- Coca-Cola -->
+            <div class="single-content">
+                <div class="product">
+                    <img src="https://araujo.vteximg.com.br/arquivos/ids/4143343-1000-1000/07894900010015.jpg"
+                        alt="lata de coca 350ml">
+                    <div class="unitAndBtn">
+                        <div class="unit" id="coca">0</div>
+                        <div class="buttons">
+                            <button class="btn-product-plus" onclick="addProduct('coca')">+</button>
+                            <!-- Primeiro parâmetro: Nome do produto em minusculo e sem caractere. Servirá para achar o ID da DIV counter.
+
+                            Segundo Parâmetro: 'counter' + nome do primeiro parâmetro. Servirá para criar a variável de soma-->
+                            <button class="btn-product-minus" onclick="subProduct('coca')">-</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Guarana -->
+            <div class="single-content">
+                <div class="product">
+                    <img src="https://www.galaxcommerce.com.br/sistema/upload/1994/produtos/refrigerante-guarana-antarctica-lata-350-ml_2020-11-24_14-10-38_0_535.jpeg"
+                        alt="lata de guarana 350ml">
+                    <div class="unitAndBtn">
+                        <div class="unit" id="guarana">0</div>
+                        <div class="buttons">
+                            <button class="btn-product-plus" onclick="addProduct('guarana')">+</button>
+                            <button class="btn-product-minus" onclick="subProduct('guarana')">-</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FANTA -->
+            <div class="single-content">
+                <div class="product">
+                    <img src="https://riomarkennedyonline.com.br/riomarkennedyonline/2020/06/fanta_laranja_lata_kina_do_feijao_verde_riomar_kennedy.jpg"
+                        alt="lata de coca 350ml">
+                    <div class="unitAndBtn">
+                        <div class="unit" id="fanta">0</div>
+                        <div class="buttons">
+                            <button class="btn-product-plus" onclick="addProduct('fanta')">+</button>
+                            <button class="btn-product-minus" onclick="subProduct('fanta')">-</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+
+
+</body>
+
+</html>
